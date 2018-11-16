@@ -11,12 +11,19 @@ body {
     }  
 
     body {
-        /* background-image: url("../images/blurred-golden-background-11289575386nW6.jpg") */
-                background-color: lightblue;
+        background-image: url("../images/gold bkg.jpeg")
+                /* background-color: lightblue; */
     }
 
 
-    
+    div.instructions {
+        background-color: rgb(250, 201, 128);
+        border-color: rgb(189, 108, 2);
+        border-style: dotted;
+        border-width: 10px;
+
+    }
+
     .gems{
         height: 60px;
         margin: 40px;
