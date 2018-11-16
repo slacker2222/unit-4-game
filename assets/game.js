@@ -1,4 +1,4 @@
-
+console.log("unit 4")
     
     $( document ).ready(function(){
  var Random=Math.floor(Math.random()*101+19)
@@ -20,7 +20,8 @@ var num4= Math.floor(Math.random()*11+1)
   var wins= 0;
   var losses = 0;
   //tally variabless
-  var images = [".images/purGem.png", ".images/greengem.png", ".images/bluegem.png", ".images/yellowgem.png"];
+  var images = [".gemImage"];
+//   var images = [".", ".images/greengem.png", ".images/bluegem.png", ".images/yellowgem.png"];
   
 
 $('#numberWins').text(wins);
