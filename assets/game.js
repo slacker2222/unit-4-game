@@ -47,12 +47,11 @@ function winner(){
     }
 
 function loser(){
-    alert ("So counting is not your thing, eh?");
+    alert ("So counting is not your thing, eh? No problem!  Try again!");
         losses++;
         $('#numberLosses').text(losses);
         reset()
      }
-
 
     $('#one').on ('click', function(){
     userTotal = userTotal + num1;
